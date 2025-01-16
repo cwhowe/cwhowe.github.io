@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Site Title</title>
+    <title>Connor Howe</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
@@ -11,35 +11,95 @@
         <h1>Welcome to My Website</h1>
         <nav>
             <ul>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#cv">CV</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+        </nav>        
     </header>
 
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Brief introduction or description of the website's purpose.</p>
+        <!-- Home Section -->
+        <section id="home" class="home">
+            <h2>Welcome!</h2>
+            <div class="home-content">
+                <img src="connor_picture1.jpg" alt="Photo of Connor Howe" class="profile-photo">
+                <div class="home-description">
+                    <p>Hi, I'm Connor Howe, a PhD student specializing in quantum communications and distributed quantum computing. Welcome to my personal website, where you can explore my research, projects, and academic journey.</p>
+                    <p>Feel free to connect with me and learn more about my work in quantum technologies!</p>
+                </div>
+            </div>
         </section>
 
-        <section id="projects">
-            <h2>My Projects</h2>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Connor Howe, a PhD student specializing in quantum communications and distributed quantum computing. My research focuses on optimizing quantum-classical hybrid systems and designing scalable quantum networks.</p>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research">
+            <h2>Research</h2>
+            <p>My primary research interests include:</p>
             <ul>
-                <li><a href="project1.html">Project 1</a></li>
-                <li><a href="project2.html">Project 2</a></li>
+                <li>Dynamic routing in quantum communication networks</li>
+                <li>Efficient entanglement generation and fidelity optimization</li>
+                <li>Hybrid quantum-classical solvers for large-scale optimization</li>
+            </ul>
+            <p>I aim to bridge the gap between theoretical quantum models and practical, implementable technologies.</p>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li>
+                    <strong>Howe, C., Doe, J.</strong> "Scalable Quantum Networks: Challenges and Solutions." <em>Journal of Quantum Communication</em>, 2024. 
+                    <a href="https://doi.org/DOI_LINK">DOI</a>
+                </li>
+                <li>
+                    <strong>Howe, C., Smith, A.</strong> "Optimization in Hybrid Quantum-Classical Systems." <em>Quantum Computing Conference</em>, 2023. 
+                    <a href="https://arxiv.org/abs/ARXIV_LINK">Preprint</a>
+                </li>
             </ul>
         </section>
 
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li><a href="project1.html">Dynamic Routing Algorithms for Quantum Networks</a></li>
+                <li><a href="project2.html">Hybrid Quantum-Classical Solver Framework</a></li>
+            </ul>
+        </section>
+
+        <!-- CV Section -->
+        <section id="cv">
+            <h2>Curriculum Vitae</h2>
+            <p>You can download my CV here:</p>
+            <a href="Connor_CV.pdf" download>Download CV</a>
+        </section>
+
+        <!-- Contact Section -->
         <section id="contact">
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p>If you'd like to get in touch, please email me at:</p>
+            <p>Email: <a href="mailto:connor.howe@example.com">connor.howe@example.com</a></p>
+            <p>Connect with me on:</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/connorhowe">LinkedIn</a></li>
+                <li><a href="https://scholar.google.com/citations?user=YOUR_ID">Google Scholar</a></li>
+                <li><a href="https://orcid.org/YOUR_ORCID">ORCID</a></li>
+            </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Your Name</p>
+        <p>&copy; 2025 Connor Howe</p>
     </footer>
 </body>
 </html>
